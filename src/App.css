@@ -1,0 +1,40 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.app-container {
+  padding: 20px;
+  background-color: lightblue;
+  min-height: 100vh;
+  height:auto;
+}
+
+.flex-cards {
+  display: flex;
+  gap:30px;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 50%;
+}
+
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.users-container > div {
+  width: 47%;
+}
+
+
+.user-card {
+  width: 100%;
+}
+
